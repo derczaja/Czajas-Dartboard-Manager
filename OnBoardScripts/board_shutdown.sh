@@ -1,2 +1,2 @@
+printf "\nDie Dartscheibe wird nun ausgeschaltet.\n"
 sudo shutdown -h now
-printf "\nDie Dartscheibe wurde erfolgreich ausgeschaltet."
