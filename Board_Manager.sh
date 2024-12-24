@@ -13,6 +13,6 @@ elif [[ "$x" == "2" ]]; then
 elif [[ "$x" == "3" ]]; then
     sshpass -p 'odroid' ssh root@192.168.178.43 '/root/board_shutdown.sh'
 else
-    printf "UngÃ¼ltiger Eingabewert! Das Programm wird geschlossen.\n"
+    printf "Ungueltiger Eingabewert! Das Programm wird geschlossen.\n"
     exit 1
 fi
