@@ -1,12 +1,10 @@
-echo "Willkommen bei Czaja's Board Manager!"
-echo ""
-echo "Was willst du tun?"
-echo "(1) Darscheibe Nutzer wechseln"
-echo "(2) Dartscheibe updaten"
-echo "(3) Darscheibe ausschalten"
+printf "Willkommen bei Czaja's Board Manager!\n"
+printf "Was willst du tun?\n"
+printf "(1) Darscheibe Nutzer wechseln\n"
+printf "(2) Dartscheibe updaten\n"
+printf "(3) Darscheibe ausschalten\n"
 read -n 1 -p "Deine Auswahl: " x
-echo ""
-echo ""
+printf "\n\n"
 
 if [[ "$x" == "1" ]]; then
     sshpass -p 'odroid' ssh root@192.168.178.43 '/root/setup_board.sh'
@@ -15,6 +13,6 @@ elif [[ "$x" == "2" ]]; then
 elif [[ "$x" == "3" ]]; then
     sshpass -p 'odroid' ssh root@192.168.178.43 '/root/board_shutdown.sh'
 else
-    echo "UngÃ¼ltiger Eingabewert! Das Programm wird geschlossen."
+    printf "UngÃ¼ltiger Eingabewert! Das Programm wird geschlossen.\n"
     exit 1
 fi

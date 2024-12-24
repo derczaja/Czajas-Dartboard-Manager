@@ -1,3 +1,2 @@
 sudo shutdown -h now
-echo ""
-echo "Die Dartscheibe wurde erfolgreich ausgeschaltet."
+printf "\nDie Dartscheibe wurde erfolgreich ausgeschaltet."
