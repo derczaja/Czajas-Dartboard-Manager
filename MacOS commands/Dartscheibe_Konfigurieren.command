@@ -1,2 +1,2 @@
-sshpass -p 'odroid' ssh root@192.168.178.43 './setup_board.sh'
+sshpass -p 'Weihnachten2023' ssh czaja@192.168.178.144 './setup_board.sh'
 echo ""

@@ -7,11 +7,11 @@ read -n 1 -p "Deine Auswahl: " x
 printf "\n\n"
 
 if [[ "$x" == "1" ]]; then
-    sshpass -p 'odroid' ssh root@192.168.178.43 '/root/setup_board.sh'
+    sshpass -p 'Weihnachten2023' ssh czaja@192.168.178.144 '/root/setup_board.sh'
 elif [[ "$x" == "2" ]]; then
-    sshpass -p 'odroid' ssh root@192.168.178.43 '/root/update_board.sh'
+    sshpass -p 'Weihnachten2023' ssh czaja@192.168.178.144 '/root/update_board.sh'
 elif [[ "$x" == "3" ]]; then
-    sshpass -p 'odroid' ssh root@192.168.178.43 '/root/board_shutdown.sh'
+    sshpass -p 'Weihnachten2023' ssh czaja@192.168.178.144 '/root/board_shutdown.sh'
 else
     printf "Ungueltiger Eingabewert! Das Programm wird geschlossen.\n"
     exit 1

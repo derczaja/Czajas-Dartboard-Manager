@@ -1,3 +1,3 @@
-sshpass -p 'odroid' ssh root@192.168.178.43 'sudo shutdown -h now'
+sshpass -p 'Weihnachten2023' ssh czaja@192.168.178.144 'sudo shutdown -h now'
 echo
 echo Die Dartscheibe wurde erfolgreich ausgeschaltet.
